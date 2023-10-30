@@ -6,6 +6,10 @@ div = (a,b) => a / b;
 raiz = x => Math.sqrt(x);
 let a = "";
 let b = "";
+let c = "";
+let sa = "+";
+let sb = "+";
+let sc = "+";
 let valor = "";
 let temPonto =  false;
 let desligada = true;
@@ -86,4 +90,8 @@ function operacao(op){
 
     }
 
+ }
+
+ const set_sinal_a = ()=>{
+    
  }
