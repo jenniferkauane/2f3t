@@ -46,3 +46,7 @@ button {
     border: none;
     border: 1px solid black;
 }
+#figura {
+    width: 1080px;
+    height: 720px;
+}

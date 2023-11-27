@@ -165,3 +165,17 @@ const mostrar_pa = () =>{
     n = document.getElementById("n").value;
     mostrar_pa();
  }
+
+ let num = 0;
+const mudar_imagem = ()=>{
+
+    num++;
+
+    setTimeout(()=>{
+        document.getElementById("figura").src = "./img/imagem "+num+". jpg";
+        mudar_imagem();
+        if(num == 3) num = 0;
+    },5000);
+
+}
+mudar_imagem();
